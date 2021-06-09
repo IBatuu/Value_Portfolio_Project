@@ -3,12 +3,12 @@ import numpy as np
 import xlsxwriter
 import requests
 from scipy import stats
+from config import IEX_CLOUD_API_TOKEN
 import math
 
 
 stocks =  pd.read_csv('sp_500_stocks.csv')
 
-IEX_CLOUD_API_TOKEN = 'Tpk_059b97af715d417d9f49f50b51b1c448'
 
 
 
